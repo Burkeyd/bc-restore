@@ -14,3 +14,40 @@ body {
 html {
   scroll-behavior: smooth;
 }
+.container {
+  display: flex;
+  width: 100%;
+  max-width: 1200px;
+}
+.row {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+/* 
+
+NAVBAR ↓
+
+*/
+.nav__container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+}
+.nav__logo {
+  display: flex;
+  max-width: 500px;
+  height: 300px;
+  border-radius: 20px;
+}
+.nav__list {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-between;
+  list-style: none;
+}
+.nav__item {
+  display: flex;
+  max-width: 5%;
+}
